@@ -1,5 +1,5 @@
 import 'package:dart_basic/character.dart';
 
-class Hero extends Character{
+abstract class Hero extends Character{
   String killMonster() => "Take this....";
 }
